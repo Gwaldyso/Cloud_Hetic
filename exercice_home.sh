@@ -1,8 +1,8 @@
 #!/bin/bash
 
 echo 'Entrez un entier :'
-read n
+read int
 
-res=$((n*n))
+res=$((int*int))
 
-echo "Le carré de $n  est $res"
+echo "Le carré de $int  est $res"
